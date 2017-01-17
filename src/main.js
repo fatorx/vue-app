@@ -18,15 +18,14 @@ Vue.use(VueRouter)
 Vue.material.registerTheme({ Primary: { color: 'indigo', hue: 'A200' } })
 
 /* configurando rotas */
-const routers = [
+const routes = [
     { path: '/', redirect: '/hello' },
     { path: '/hello', component: Hello },
     { path: '/about-us', component: AboutUs }
 ]
 
 /* mode: 'history' (serve para tirar o /#/ da url) */
-const router = new VueRouter({
-  routes: routers })
+const router = new VueRouter({ routes, mode: 'history' })
 
 /* eslint-disable no-new */
 new Vue({

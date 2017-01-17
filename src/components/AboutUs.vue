@@ -2,7 +2,7 @@
     <div class="about-us">
         <h1>About Us</h1>
 
-        <p>Powered by 0e1dev.com</p>
+        <p>Tela de about us!!!!</p>
 
         <router-link tag="md-button" class="md-raised md-primary" to="/hello">
             <md-icon>arrow_back</md-icon> Back to Hello
