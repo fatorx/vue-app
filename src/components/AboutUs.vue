@@ -1,5 +1,6 @@
 <template>
     <div class="about-us">
+        <top-bar></top-bar>
         <h1>About Us</h1>
 
         <p>Tela de about us!!!!</p>
@@ -11,11 +12,12 @@
 </template>
 
 <script>
+import TopBar from './dashboard/TopBar'
+
 export default {
   name: 'about-us',
-  data () {
-    return {
-    }
+  components: {
+    TopBar
   }
 }
 </script>

@@ -1,14 +1,5 @@
 <template>
   <div class="hello">
-    <md-toolbar>
-      <md-button class="md-icon-button">
-        <md-icon>menu</md-icon>
-      </md-button>
-      <h2 class="md-title" style="flex: 1">{{ msg }}</h2>
-      <md-button class="md-icon-button">
-        <md-icon>favorite</md-icon>
-      </md-button>
-    </md-toolbar>
     <md-tabs md-centered>
       <md-tab md-label="Movies" md-icon="ondemand_video">
         <div class="field-group">
@@ -67,7 +58,6 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
